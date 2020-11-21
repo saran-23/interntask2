@@ -175,10 +175,11 @@ a.buttons:not(:last-child):nth-last-child(4) {
 .badge :hover {
   background-color: #49e670;
 }
-.badge {
+
+.ripple .badge {
   position: absolute;
   top: 2px;
-  left: 200px;
+  left: 20px;
   padding: 5px 9px;
   border-radius: 50%;
   background: #49e670;
