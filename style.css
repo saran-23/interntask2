@@ -15,6 +15,8 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  text-decoration: none;
+
 }
 .bottomNav.fill > [nav-id] {
   flex-grow: 1;
@@ -24,7 +26,8 @@
   min-width: 120px;
   height: 100%;
   margin: 0;
-  border-radius: 0;
+
+  border-radius:0;
   line-height: 25px;
   text-align: center;
   text-align: center;
@@ -33,6 +36,10 @@
   border: none;
   color: #757575;
 }
+.bottomNav,span :hover{
+  color: #49e670;
+}
+
 .bottomNav > [nav-id] * {
   display: block;
 }
@@ -57,21 +64,16 @@
 
 /* FAb */
 
-.wrapper {
-  position: relative;
-}
-.wrapper span {
-  position: absolute;
-  top: -2px;
-  right: -2px;
-}
+
 
 /* menu */
 nav.float-action-button {
   position: fixed;
   bottom: 0;
   right: 0;
-  margin: 4rem;
+  margin-bottom: 70px;
+  margin-right: 10px;
+
 }
 
 a.buttons {
@@ -176,11 +178,11 @@ a.buttons:not(:last-child):nth-last-child(4) {
   background-color: #49e670;
 }
 
-.ripple .badge {
+.badge {
   position: absolute;
-  top: 2px;
-  left: 20px;
-  padding: 5px 9px;
+  top: 1px;
+  left: 180px;
+  padding: 2px 4px;
   border-radius: 50%;
   background: #49e670;
   color: white;
