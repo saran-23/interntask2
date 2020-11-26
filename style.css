@@ -260,7 +260,7 @@ nav.float-btn{
 
   position: fixed;
   overflow: hidden;
-  bottom: -240px;
+  bottom: -480px;
   right: 80px;
 
   --background:rgb(134, 205, 145);;
@@ -341,6 +341,7 @@ nav.float-btn{
 .wrapper .fac a {
   color: #337ab7;
   opacity: 0.8;
+
 }
 .wrapper .fac a:hover {
   transition: 0.2s;
