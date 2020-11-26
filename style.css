@@ -203,7 +203,15 @@ a.buttons:not(:last-child):nth-last-child(4) {
   .bottomNav {
     visibility: visible;
   }
-  
+
+  .float-btn
+  {
+    top:80%;
+    margin: 0%;
+    padding: 0%;
+      
+    bottom: 0%;
+  }
 }
 /*
 @media (min-width: 768px) {
@@ -234,23 +242,27 @@ visibility: visible;
 }
 } 
 */
+.pos {
+  
+}
+nav.float-btn{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+}
 
 .float-btn{
-  padding: 0px;
-  height: 100vh;
+    height: 100vh;
   font: "Lexend Deca", sans-serif;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
 
-  /* margin-top: 0%;
-  margin-bottom: 0px;
-  margin-left: 590px;
-  padding: 0px; */
- 
-  
+  position: fixed;
+  overflow: hidden;
+  bottom: -240px;
+  right: 80px;
+
   --background:rgb(134, 205, 145);;
   --icon-color: #34955;
   --width: 50px;
@@ -267,8 +279,6 @@ visibility: visible;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: -20px;
-  margin-right: -600px;
 }
 .wrapper .fab {
   background: var(--background);
@@ -319,11 +329,9 @@ visibility: visible;
     content: "";
     width: 20px;
     height: 20px;
-    background: ;
     border-radius: 3px;
     position: absolute;
-    left: 50%;
-    margin-left: -10px;
+  
     bottom: -8px;
     transform: rotate(45deg);
     z-index: 0;
