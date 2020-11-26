@@ -268,11 +268,11 @@ nav.float-btn{
   font: "Lexend Deca", sans-serif;
   display: flex;
   flex-direction: row;
-
+/* 
   position: fixed;
   overflow: hidden;
   bottom: -480px;
-  right: 80px;
+  right: 80px; */
 
   --background:rgb(134, 205, 145);;
   --icon-color: #34955;
