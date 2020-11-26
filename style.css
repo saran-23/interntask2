@@ -199,6 +199,17 @@ a.buttons:not(:last-child):nth-last-child(4) {
   }
 }
 
+@media only screen and (min-width: 992px){
+.float-btn{
+
+    right: 0%;
+    bottom: 0%;
+    top: 80%;
+
+}
+
+}
+
 @media (max-width: 478px) {
   .bottomNav {
     visibility: visible;
