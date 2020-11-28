@@ -321,25 +321,36 @@ nav.float-btn{
   height: 4px;
 
 }
+/*       
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+
+color: #fff;
+background-color:#49E670; 
+height: 40px;
+width: 40px; */
+
 .wrapper .fac {
   width: 32px;
-  height: 150px;
+  height: 50px;
   border-radius: 64px;
   position: absolute;
   background: #fff;
-  z-index: 2;
+  z-index: 2;   
   padding: 0.5rem 0.5rem;
   opacity: 0;
   top: -110px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   transition: opacity 0.2s ease-in, top 0.2s ease-in, width 0.1s ease-in;
 }
   .wrapper .fac ::after {
     content: "";
-    width: 20px;
+    width: 2px;
     height: 20px;
     border-radius: 3px;
     position: absolute;
@@ -349,20 +360,22 @@ nav.float-btn{
     z-index: 0;
   }
 
-  .wrapper .fac  a {
-  
-  }
-/*  
+ 
 
 .wrapper .fac a {
-
   color: #337ab7;
   opacity: 0.8;
-} */
+
+  text-decoration: none;
+  display: inline-block;
+}
+
 .wrapper .fac a:hover {
   transition: 0.2s;
   opacity: 1;
-  color: #30444f;
+  overflow: hidden;
+  display: inline-block;
+  /* color: #30444f; */
 }
 .wrapper input {
   height: 100%;
