@@ -16,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
-  background-color:lightgray;
+  background-color:#92a8d1;
 
 }
 .bottomNav.fill > [nav-id] {
