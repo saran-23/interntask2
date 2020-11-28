@@ -40,7 +40,10 @@
 .bottomNav,span :hover{
   color: #49e670;
 }
-
+.bottomNav,span {
+ 
+  color:#fff;
+}
 .bottomNav > [nav-id] * {
   display: block;
 }
