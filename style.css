@@ -16,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
-  background-color:#f1f1f1;#
+  background-color:#f1f1f1;
 
 }
 .bottomNav.fill > [nav-id] {
@@ -39,10 +39,6 @@
 }
 .bottomNav,span :hover{
   color: #49e670;
-}
-.bottomNav,span {
- 
-  color:#fff;
 }
 .bottomNav > [nav-id] * {
   display: block;
