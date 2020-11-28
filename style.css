@@ -16,6 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
+  background-color:lightgray;
 
 }
 .bottomNav.fill > [nav-id] {
@@ -217,7 +218,7 @@ a.buttons:not(:last-child):nth-last-child(4) {
 
   .float-btn
   {
-    top:80%;
+    top:70%;
     margin: 0%;
     padding: 0%;
       
@@ -254,7 +255,8 @@ visibility: visible;
 } 
 */
 .pos {
-  
+    left: 0%;
+    
 }
 nav.float-btn{
   position: fixed;
@@ -268,12 +270,11 @@ nav.float-btn{
   font: "Lexend Deca", sans-serif;
   display: flex;
   flex-direction: row;
-
   position: fixed;
   overflow: hidden;
   bottom: -480px;
   right: 80px;
-
+  
   --background:rgb(134, 205, 145);;
   --icon-color: #34955;
   --width: 50px;
@@ -348,12 +349,16 @@ nav.float-btn{
     z-index: 0;
   }
 
- 
+  .wrapper .fac  a {
+  
+  }
+/*  
+
 .wrapper .fac a {
+
   color: #337ab7;
   opacity: 0.8;
-
-}
+} */
 .wrapper .fac a:hover {
   transition: 0.2s;
   opacity: 1;
